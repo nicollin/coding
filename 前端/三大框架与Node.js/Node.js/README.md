@@ -1,0 +1,33 @@
+1. 
+- Node开发环境
+  - npm操作
+  - package.json
+- Node基础API考查
+  - file system
+  - Event
+  - 网络
+  - child process
+- Node重点和难点
+  - 事件和异步理解
+  - Stream相关概念
+  - Buffer相关概念
+  - domain
+  - vm
+  - cluster
+  - 异常调优
+- Server相关
+  - 库
+    - Koa
+    - Express
+  - 数据库
+    - MongoDB
+    - MySQL
+    - Redis
+  - 运维部署
+    - Nginx
+    - 进程守候
+    - 日志
+2. 三大框架
+- Vue
+- React
+- Angular
