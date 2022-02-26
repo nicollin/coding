@@ -52,7 +52,7 @@ Q：如何设置宽度为内容宽度+padding宽度+border宽度
 # 浮动float
 
 - 用途
-    - [图片标签设置float后，图片内文字会环绕图片](./示例/图片内文本环绕效果.html)
+    - [图片标签设置float后，图片内文字会环绕图片](https://github.com/nicollin/coding/blob/main/前端/CSS-HTML知识点/示例/图片内文字环绕效果.html)
       ![20220226165058](https://s2.loli.net/2022/02/26/I4Zj8q7WlF9BQ2h.png)
     - float+div可以实现类似table实现的网页布局
 
@@ -66,7 +66,7 @@ Q：为何float会导致父元素塌陷？
 
 Q：手写clearfix(清除浮动影响)
 
-所有float元素的父容器，一般情况下都应该加clearfix。[点我查看效果](./示例/图片内文本环绕效果.html)
+所有float元素的父容器，一般情况下都应该加clearfix。[点我查看效果](https://github.com/nicollin/coding/blob/main/前端/CSS-HTML知识点/示例/图片内文字环绕效果.html)
 
 ```html
 
@@ -325,4 +325,4 @@ for(var i = 0; i< data.length; i++) {
 }
 ```
 
-上面的代码在循环中每次都获取dom，然后对其内部的HTML进行累加li，每次都会操作DOM结构，可以改成使用documnentFragment或者先遍历组成HTML的字符串，最后再操作一次innerHTML
+上面的代码在循环中每次都获取dom，然后对其内部的HTML进行累加li，每次都会操作DOM结构，可以改成使用documentFragment或者先遍历组成HTML的字符串，最后再操作一次innerHTML
