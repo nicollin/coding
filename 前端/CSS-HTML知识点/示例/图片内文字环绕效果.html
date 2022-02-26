@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <title>图片内文字环绕效果</title>
+    <style>
+        .clearfix:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        .clearfix {
+            *zoom: 1;
+            /* 兼容 IE 低版本 */
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 420px;">
+        <img src="https://t.hk.uy/aP6b" style="width:300px;height:300px;float: left">
+        《天空之城》是由吉卜力工作室、德间书店联合制作的动画电影，由宫崎骏执导，田中真弓、横泽启子、初井言荣、寺田农等担任主要配音。该片主要讲述了主人公少女希达和少年帕祖以及海盗、军队、穆斯卡等人寻找天空之城拉普达的历险记。该片于1986年8月2日在日本上映
+    </div>
+
+    <br>
+    <div style="border: 2px solid blue; padding:3px;">
+        <img src="https://t.hk.uy/aP6b" style="width:300px;height:300px;">
+        <img src="https://t.hk.uy/aP6x" style="width:300px;height:300px;">
+        <img src="https://t.hk.uy/aP6y" style="width:300px;height:300px;">
+    </div>
+
+    <br>
+    <div style="border: 2px solid blue; padding:3px;">
+        <img src="https://t.hk.uy/aP6b" style="width:300px;height:300px;float: left">
+        <img src="https://t.hk.uy/aP6x" style="width:300px;height:300px;float: left">
+        <img src="https://t.hk.uy/aP6y" style="width:300px;height:300px;float: left">
+    </div>
+
+    <div style="height: 400px"></div>
+    <br>
+    <div style="border: 2px solid blue; padding:3px;" class="clearfix">
+        <img src="https://t.hk.uy/aP6b" style="width:300px;height:300px;float: left">
+        <img src="https://t.hk.uy/aP6x" style="width:300px;height:300px;float: left">
+        <img src="https://t.hk.uy/aP6y" style="width:300px;height:300px;float: left">
+    </div>
+</body>
+
+</html>
