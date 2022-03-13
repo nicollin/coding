@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+        list-style: none;
+        width: 600px;
+        margin: auto;
+      }
+
+      li {
+        padding: 10px;
+        border: 1px solid pink;
+        outline-offset: -10px;
+      }
+
+      li + li {
+        margin-top: -10px;
+      }
+
+      li:hover {
+        /* border: 10px solid gold; */
+        outline: 10px solid gold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- html -->
+    <div>
+      <p>outline不计算大小 border计算大小</p>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+      </ul>
+    </div>
+    <!-- js -->
+    <script></script>
+  </body>
+</html>

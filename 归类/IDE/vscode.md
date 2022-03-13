@@ -43,3 +43,36 @@ ID: jianglinghao.vscode-npm-scripts
 发布者: jianglinghao
 VS Marketplace 链接: https://marketplace.visualstudio.com/items?itemName=jianglinghao.vscode-npm-scripts
 ````
+
+- **Git Graph**
+
+```text
+名称: Git Graph
+ID: mhutchie.git-graph
+说明: View a Git Graph of your repository, and perform Git actions from the graph.
+版本: 1.30.0
+发布者: mhutchie
+VS Marketplace 链接: https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
+```
+
+- **Live Server**
+
+```text
+名称: Live Server
+ID: ritwickdey.LiveServer
+说明: Launch a development local Server with live reload feature for static & dynamic pages
+版本: 5.7.5
+发布者: Ritwick Dey
+VS Marketplace 链接: <https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer>
+```
+
+- **GitLens**
+
+```text
+名称: GitLens — Git supercharged
+ID: eamodio.gitlens
+说明: Supercharge Git within VS Code — Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate and explore Git repositories, gain valuable insights via rich visualizations and powerful comparison commands, and so much more
+版本: 12.0.4
+发布者: GitKraken
+VS Marketplace 链接: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+```

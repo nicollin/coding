@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Chrome/Opera/Safari */
+      #block-one input::-webkit-input-placeholder {
+        color: red;
+      }
+
+      /* Firefox 19+ */
+      #block-one input::-moz-placeholder {
+        color: red;
+      }
+
+      /* IE 10+ */
+      #block-one input:-ms-input-placeholder {
+        color: red;
+      }
+
+      /* Firefox 18- */
+      #block-one input:-moz-placeholder {
+        color: red;
+      }
+
+      #block-two input:focus {
+        background-color: lightgrey;
+      }
+
+      #block-three input {
+        border: none;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1.设置input占位符的样式 -->
+    <div id="block-one">
+      <p>1.设置input占位符的样式</p>
+      <input type="text" name="" id="" placeholder="请输入" />
+    </div>
+
+    <div id="block-two">
+      <p>2.设置input聚焦时的样式</p>
+      <input type="text" name="" id="" placeholder="请输入" />
+    </div>
+
+    <div id="block-three">
+      <p>3.取消input的边框</p>
+      <input type="text" name="" id="" placeholder="请输入" />
+    </div>
+  </body>
+</html>
